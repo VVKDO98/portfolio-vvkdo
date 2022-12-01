@@ -565,6 +565,14 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-52{
+  margin-bottom: 13rem;
+}
+
+.mb-40{
+  margin-bottom: 10rem;
+}
+
 .flex{
   display: flex;
 }
@@ -623,6 +631,10 @@ video {
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.scroll-smooth{
+  scroll-behavior: smooth;
 }
 
 .rounded-full{
