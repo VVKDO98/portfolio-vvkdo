@@ -12,14 +12,50 @@
     <main class="w-4/5 mx-auto">
         <header class="relative w-full h-screen flex flex-col items-center justify-center">
             <nav class="fixed bottom-6 bg-menu py-2 px-8 rounded-full flex flex-row items-center gap-6 backdrop-blur-3xl opacity-70">
-                <a href="#project">project</a>
+                <a href="#projects">projects</a>
                 <a href="#languages">languages</a>
                 <a href="#contact">contact</a>
             </nav>
             <h1 class="mb-11 w-full text-center text-5xl font-semibold">Doriano Vanvolcksom</h1>
             <p class="mb-11 w-full text-center text-xl font-medium">I'm a junior frontend web developer based in Belgium</p>
-            <button href="#contact" class="px-8 py-2 bg-blue rounded-full text-white font-semibold uppercase spacing tracking-widest">Contact me</button>
+            <button onclick="window.location.href='#projects'" class="px-8 py-2 bg-blue rounded-full text-white font-semibold uppercase spacing tracking-widest">Contact me</button>
         </header>
+        <div id="projects" class="mb-10"></div>
+        <article>
+            <h2 class="mb-16 w-full text-center text-4xl font-semibold">Projects</h2>
+            <div id="projectMain" class="mb-80 w-full">
+                <div id="projectCard" class="mb-16 w-full bg-lightblue rounded-2xl">
+                    <img class="mb-6 rounded-t-2xl" src="assets/img/blog.png" alt="NoteBook Blog Banner">
+                    <div class="w-full flex flex-col">
+                        <h3 class="mb-6 text-xl text-center font-semibold">NoteBook Blog</h3>
+                        <p class="mb-6 mx-auto w-4/5 text-base text-justify font-normal ">A blog made in React and Tailwind linked to a database on Supabase.</p>
+                        <form action="https://github.com/VVKDO98/react-blog-with-api-blog" class="w-4/5 mx-auto">
+                            <button class="mb-6 mx-auto w-full py-2 bg-blue rounded-xl text-white font-semibold uppercase spacing tracking-widest">See the project</button>
+                        </form>
+                    </div>
+                </div>
+                <div id="projectCard" class="mb-16 w-full bg-lightblue rounded-2xl">
+                    <img class="mb-6 rounded-t-2xl" src="assets/img/cogip.png" alt="Cogip Banner">
+                    <div class="w-full flex flex-col">
+                        <h3 class="mb-6 text-xl text-center font-semibold">Cogip Enterprise</h3>
+                        <p class="mb-6 mx-auto w-4/5 text-base text-justify font-normal ">A site containing the invoices of a company that can be managed with a dashboard.</p>
+                        <form action="https://github.com/VVKDO98/cogip-project" class="w-4/5 mx-auto">
+                            <button class="mb-6 mx-auto w-full py-2 bg-blue rounded-xl text-white font-semibold uppercase spacing tracking-widest">See the project</button>
+                        </form>
+                    </div>
+                </div>
+                <div id="projectCard" class="mb-16 w-full bg-lightblue rounded-2xl">
+                    <img class="mb-6 rounded-t-2xl" src="assets/img/calculator.png" alt="Calculator Banner">
+                    <div class="w-full flex flex-col">
+                        <h3 class="mb-6 text-xl text-center font-semibold">Calculator</h3>
+                        <p class="mb-6 mx-auto w-4/5 text-base text-justify font-normal ">A javascript calculator allowing to do simple mathematical operations.</p>
+                        <form action="https://github.com/VVKDO98/calculator-project" class="w-4/5 mx-auto">
+                            <button class="mb-6 mx-auto w-full py-2 bg-blue rounded-xl text-white font-semibold uppercase spacing tracking-widest">See the project</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
     </main>
 </body>
 </html>
