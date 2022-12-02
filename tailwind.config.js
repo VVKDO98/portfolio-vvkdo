@@ -5,7 +5,11 @@ module.exports = {
     "./public/**/*.{html,js}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        'lightshadow': '0px 0px 20px rgba(235, 243, 255, 1)'
+      }
+    },
     fontFamily: {
       outfit: ['Outfit', 'sans-serif']
     },
