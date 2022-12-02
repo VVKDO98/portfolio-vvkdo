@@ -573,6 +573,10 @@ video {
   display: flex;
 }
 
+.aspect-square{
+  aspect-ratio: 1 / 1;
+}
+
 .h-screen{
   height: 100vh;
 }
@@ -651,6 +655,10 @@ video {
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-16{
+  gap: 4rem;
 }
 
 .scroll-smooth{
