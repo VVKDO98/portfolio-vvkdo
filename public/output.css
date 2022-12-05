@@ -1688,6 +1688,15 @@ video {
   border-style: none;
 }
 
+.bg-darkblue{
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 21 47 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  background-color: rgba(244,244,244,1);
+}
+
 .bg-menu\/30{
   background-color: rgb(244 244 244 / 0.3);
 }
@@ -2333,20 +2342,12 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-200{
-  transition-duration: 200ms;
-}
-
-.duration-100{
-  transition-duration: 100ms;
-}
-
 .duration-300{
   transition-duration: 300ms;
 }
 
-.duration-500{
-  transition-duration: 500ms;
+.duration-200{
+  transition-duration: 200ms;
 }
 
 .ease-in-out{
@@ -2366,38 +2367,17 @@ video {
   content: var(--tw-content);
 }
 
-.hover\:border:hover{
-  border-width: 1px;
-}
-
-.hover\:border-blue:hover{
-  --tw-border-opacity: 1;
-  border-color: rgb(19 99 223 / var(--tw-border-opacity));
-}
-
-.hover\:bg-white:hover{
-  background-color: rgba(244,244,244,1);
-}
-
 .hover\:bg-lightblue:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(235 243 255 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-opacity-0:hover{
-  --tw-bg-opacity: 0;
-}
-
-.hover\:bg-none:hover{
-  background-image: none;
+.hover\:font-semibold:hover{
+  font-weight: 600;
 }
 
 .hover\:font-bold:hover{
   font-weight: 700;
-}
-
-.hover\:font-semibold:hover{
-  font-weight: 600;
 }
 
 .hover\:text-blue:hover{
@@ -2409,14 +2389,6 @@ video {
   --tw-shadow: 0px 0px 20px rgba(235, 243, 255, 1);
   --tw-shadow-colored: 0px 0px 20px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:outline:hover{
-  outline-style: solid;
-}
-
-.hover\:outline-blue:hover{
-  outline-color: #1363DF;
 }
 
 .before\:hover\:text-center:hover::before{
