@@ -15,7 +15,7 @@ module.exports = {
       outfit: ['Outfit', 'sans-serif']
     },
     colors: {
-      'white': 'rgba(244,244,244,0.7)',
+      'white': 'rgba(244,244,244,1)',
       'darkblue': '#04152F',
       'blue': '#1363DF',
       'lightblue': '#EBF3FF',

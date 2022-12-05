@@ -2010,7 +2010,7 @@ video {
 }
 
 .text-white{
-  color: rgba(244,244,244,0.7);
+  color: rgba(244,244,244,1);
 }
 
 .text-\[\#336699\]\/\[\.35\]{
@@ -2479,10 +2479,6 @@ video {
     margin-bottom: 4rem;
   }
 
-  .lg\:mb-5{
-    margin-bottom: 1.25rem;
-  }
-
   .lg\:flex{
     display: flex;
   }
@@ -2546,56 +2542,15 @@ video {
 }
 
 @media (min-width: 1280px){
-  .xl\:w-1\/6{
-    width: 16.666667%;
-  }
-
-  .xl\:w-1\/5{
-    width: 20%;
-  }
-
   .xl\:w-1\/4{
     width: 25%;
-  }
-
-  .xl\:w-52{
-    width: 13rem;
-  }
-
-  .xl\:w-44{
-    width: 11rem;
   }
 
   .xl\:w-36{
     width: 9rem;
   }
 
-  .xl\:gap-10{
-    gap: 2.5rem;
-  }
-
   .xl\:gap-12{
     gap: 3rem;
-  }
-
-  .xl\:gap-32{
-    gap: 8rem;
-  }
-
-  .xl\:gap-1{
-    gap: 0.25rem;
-  }
-
-  .xl\:gap-20{
-    gap: 5rem;
-  }
-
-  .xl\:gap-16{
-    gap: 4rem;
-  }
-
-  .xl\:gap-x-32{
-    -moz-column-gap: 8rem;
-         column-gap: 8rem;
   }
 }
